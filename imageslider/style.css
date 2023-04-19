@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(to left bottom ,lightblue,brown,lightgreen);
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    min-height: 80vh;
+    width: 60%;
+    border:8px solid black;
+    margin-top: 4.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px rgba(0,0,0,1);
+    position: relative;
+    background: url("media/bg1.jpg") center/cover;
+    transition: 3s ease-out;
+}
+
+.btn-left
+{
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    background-color: white;
+    padding: .4em .6em;
+    border-radius: 30px;
+    transform: translateY(calc(-50%));
+    cursor: pointer;
+
+}
+
+.btn-right
+{
+    position: absolute;
+    top: 50%;
+    right: -2%;
+    background-color: white;
+    padding: .4em .6em;
+    border-radius: 30px;
+    transform: translateY(calc(-50%));
+    cursor: pointer;
+ 
+}
