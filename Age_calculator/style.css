@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    width:100%;
+    height: 100vh;
+    background: linear-gradient(to bottom right,#7A7FBA,#11C37C);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.container
+{
+    width:400px;
+    height: 500px;
+    background: rgba(255,255,255,0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+input{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 60px;
+    width: 170px;
+    background: white;
+}
+
+button{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    height: 60px;
+    width: 170px;
+    background: white;
+
+}
+
+p{
+    color: white;
+    font-size: 25px;
+    padding-top: 5px;
+}
