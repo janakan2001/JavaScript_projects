@@ -1,0 +1,14 @@
+body{
+    background: linear-gradient(to right,lightblue,lightpink,lightgreen);
+}
+
+.container
+{
+    min-height: 80vh;
+    width: 60%;
+    background:url("media/bg1.jpg") center/cover;
+    margin-top: 4.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
