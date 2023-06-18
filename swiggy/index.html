@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=Poppins:ital,wght@0,300;1,300&display=swap');
+
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+        }
+        .container1
+        {
+            display: flex;
+        }
+        .part1
+        {
+            height: 540px;
+            width: 55%;
+            background-color: white;
+        }
+        .part1 img
+        {
+            height: 60px;
+            width: 190px;
+            position: relative;
+            top: 56px;
+            left: 170px;
+        }
+        .buttons
+        {
+            margin-left: 570px;
+        }
+        .buttons button
+        {
+            height:36px;
+            width: 110px;
+            font-family: poppins;
+            font-size: 16px;
+            font-weight: 600;
+            margin-left: -5px;
+            border: none;
+            color: white;
+        }
+        .input
+        {
+            display: flex;
+            margin-left: 170px;
+        }
+        .input button
+        {
+            height: 54px;
+            margin-left: -4px;
+            padding: 10px 20px;
+
+            
+            border: none;
+            font-weight: 1000;
+            color: white;
+            font-family: poppins;
+            font-size: 16px;
+            background-color: #FC8019;
+        
+        }
+        .input input
+        {
+            height: 50px;
+            width: 70%;
+            font-size: 15px;
+            font-family: poppins;
+            padding-left: 22px;
+            font-weight: 600;
+            color: gray;
+            border: 1px solid #FC8019;
+            
+        }
+        .form h1
+        {
+            font-family: poppins;
+            font-size: 38px;
+            color: black;
+            margin-top: 100px;
+            margin-left: 170px;
+            margin-bottom: 5px;
+        }
+        .form .order
+        {
+            margin-left: 170px;
+            font-family: poppins;
+            font-size: 25px;
+            font-family: 500;
+            color: gray;
+            margin-bottom: 30px;
+        }
+        .part2
+        {
+            height: 540px;
+            width: 700px;
+            background-image: url(./Lunch1_vlksgq.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .cities
+        {
+            font-family: poppins;
+            font-size: 18px;
+            color: grey;
+            font-weight: 600;
+            margin-top: 30px;
+            margin-left: 170px;
+        }
+        .cit
+        {
+            font-family: poppins;
+            font-size: 16px;
+            margin-left: 170px;
+            margin-top: 20px;
+            font-weight: 600;
+        }
+        .locate
+        {
+            position: absolute;
+            display: flex;
+            top: 348px;
+            left: 560px;
+        }
+        
+        .locate p
+        {
+            margin-left: 5px;
+            font-family: poppins;
+            font-size: 12px;
+            color: grey;
+        }
+        .container2
+        {
+            height: 380px;
+            width: 100%;
+            background-color: #2B1E16;
+            display: flex;
+            flex-wrap: wrap;
+            
+            justify-content: space-around;
+        }
+        .container2 div
+        {
+            height: 300px;
+            width: 300px;
+            
+        }
+        
+        .parta, .partb , #c
+        {
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .container2 #img
+        {
+
+            height: 200px;
+            width: 110px;
+            margin: 0px auto;
+            margin-bottom: 30px;
+        }
+        .container2 p
+        {
+            text-align: center;
+            font-family: poppins;
+            color: #E0CBC1;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        #c #img
+        {
+            margin-top: 30px;
+        }
+
+        #t1
+        {
+            text-align: center;
+        
+            font-family: poppins;
+            font-size: 20px;
+            color: white;
+            font-weight: 600;
+        }
+
+        .container3
+        {
+            height: 550px;
+            width: 100%;
+            background-color: white;
+        }
+        
+        .cont1 .t1
+        {
+            font-family: poppins;
+            font-size: 30px;
+            font-weight: 800;
+            color: black;
+            margin-bottom: 15px;
+
+
+        }
+        .cont1 p
+        {
+            font-family: poppins;
+            color: #7E808C;
+            font-weight: 500;
+            
+            margin-bottom: 60px;
+            font-size: 16px;
+            
+            
+        }
+        .container3 .cont1 
+        {
+    
+            height: 400px;
+            width: 350px;
+            margin-left: 170px;
+            margin-top: 150px;
+            
+        }
+        .container3
+        {
+            
+            height: 550px;
+            width: 100%;
+            display: flex;
+            
+        }
+        .cont1 img
+        {
+            height: 60px;
+        }
+        .container3 .cont2 img
+        {
+            margin-left: 140px;
+            height: 500px;
+        }
+        .container3 .cont3 img
+        {
+            margin-top: 50px;
+            height: 500px;
+        }
+       
+       
+
+        
+       
+
+
+    </style>
+
+</head>
+<body>
+    <div class="container1">
+        <div class="part1">
+            <div class="logo">
+                <img src="./pngwing.com.png" alt="">
+            </div>
+            <div class="buttons">
+                <button style="color: black;">Login</button>
+                <button style="background-color: black; padding-right: 20px;">Sign up</button>
+            </div>
+            <div class="form">
+                <h1>Unexpected Guests?</h1>
+                <p class="order">Order food from favourite restaurants near you.</p>
+                <div class="input">
+                    <input type="text" placeholder="Enter your delivery location">
+                    <button>FIND FOOD</button>
+                </div>
+                <div class="locate">
+                    <i class="fa-solid fa-location-crosshairs"></i>
+                    <p>Locate me</p>
+
+                </div>
+            </div>
+            
+            <p class="cities">
+                POPULAR CITIES IN INDIA
+            </p>
+            <p class="cit">Ahmedabad Bangalore Chennai Delhi Gurgaon Hyderabad Kolkata <br> Mumbai Pune& more.</p>
+
+
+
+        </div>
+        <div class="part2"></div>
+    </div>
+
+    <div class="container2">
+
+        <div class="parta">
+            <img src="./1.webp" id="img">
+            <p id="t1">No Minimum Order</p>
+            <p>Order in for yourself or for the group,<br> with no restrictions on order value</p>
+        </div>
+        <div class="partb">
+            <img src="./2.webp" alt="" id="img">
+            <p id="t1">Live Order Tracking</p>
+            <p>Know where your order is at all times,<br> from the restaurant to your doorstep</p>
+        </div>
+        <div id="c">
+            <img src="./3.webp" alt="" id="img">
+            <p id="t1">Lightning-Fast Delivery</p>
+            <p>Experience Swiggy's superfast delivery <br> for food delivered fresh & on time</p>
+        </div>
+
+    </div>
+
+    <div class="container3">
+        <div class="cont1">
+            <p class="t1">Resturants <br>in you pocket</p>
+            <p>Order from your favorite restaurants & track on the go, with the all-new Swiggy app.</p>
+            <img src="./Screenshot (129).png" alt="">
+        </div>
+        <div class="cont2">
+            <img src="./4.webp" alt="">
+        </div>
+        <div class="cont3">
+            <img src="./5.webp" alt="">
+        </div>
+
+
+    </div>
+
+    <div class="container4">
+        <table>
+            <tr>
+                <th>COMPANY</th>
+                <th>Contact</th>
+                <th>HEAD</th>
+            </tr>
+            <tr>
+                <td>About us</td>
+                <td>Help & Support</td>
+                <td>Terms & Conditions</td>
+            </tr>
+            <tr>
+                <td>Team</td>
+                <td>Partner With us</td>
+                <td>Refund & Cancellation</td>
+            </tr>
+            <tr>
+                <td>Careers</td>
+                <td>Ride with us</td>
+                <td>Privacy Policy</td>
+            </tr>
+            <tr>
+                <td>Swiggy Blog</td>
+                <td> </td>
+                <td>Cookie Policy</td>
+
+            </tr>
+            <tr>
+                <td>Bug Bounty</td>
+                <td> </td>
+                <td>Offer Terms</td>
+            </tr>
+            <tr>
+                <td>Swiggy one</td>
+                <td>
+                     
+                </td>
+                <td>Phishing & Fraud</td>
+            </tr>
+            <tr>
+                <td>Swiggy Corporate</td>
+                <td> </td>
+                <td>Corporate-Swiggy Money Codes Terms And Conditions</td>
+            </tr>
+            <tr>
+                <td>Swiggy InstaMart</td>
+            </tr>
+            <tr>
+                <td>Swiggy Genie</td>
+                <td> </td>
+                <td>Corporate - Swiggy Discount Voucher Terms and Conditions</td>
+            </tr>
+        </table>
+    </div>
+
+    
+</body>
+</html>
